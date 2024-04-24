@@ -1,0 +1,403 @@
+Index: src/lessons_1/Lesson3-task1.kt
+===================================================================
+diff --git a/src/lessons_1/Lesson3-task1.kt b/src/lessons_1/Lesson3-task1.kt
+deleted file mode 100644
+--- a/src/lessons_1/Lesson3-task1.kt	(revision b102e77cdc997dd613fbb39a1b8ff428f03f4c6e)
++++ /dev/null	(revision b102e77cdc997dd613fbb39a1b8ff428f03f4c6e)
+@@ -1,11 +0,0 @@
+-package lessons_1
+-
+-fun main(){
+-    val nameHuman = "Святослав"
+-    var greeting = "С добрым утром!"
+-    println("$greeting, $nameHuman")
+-
+-
+-    greeting = "Добрый вечер!"
+-    println("$greeting, $nameHuman")
+-}
+\ No newline at end of file
+Index: src/lesson_2/Lesson2-task1.kt
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package lesson_2\r\n\r\nfun main(){\r\n    val mark1 = 3\r\n    val mark2 = 4\r\n    val mark3 = 5\r\n    val summNums = 2*mark1 + mark2 + mark3\r\n    val averageValue: Float= summNums/4f\r\n    println(averageValue)\r\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/lesson_2/Lesson2-task1.kt b/src/lesson_2/Lesson2-task1.kt
+--- a/src/lesson_2/Lesson2-task1.kt	(revision b102e77cdc997dd613fbb39a1b8ff428f03f4c6e)
++++ b/src/lesson_2/Lesson2-task1.kt	(date 1713893792465)
+@@ -1,10 +1,11 @@
+ package lesson_2
+ 
+-fun main(){
++fun main() {
+     val mark1 = 3
+     val mark2 = 4
+     val mark3 = 5
+-    val summNums = 2*mark1 + mark2 + mark3
+-    val averageValue: Float= summNums/4f
+-    println(averageValue)
++    val students = 4.0
++    val summNums = 2 * mark1 + mark2 + mark3
++    val averageValue = summNums / students
++    println("%.2f".format(averageValue))
+ }
+\ No newline at end of file
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"c93b965b-3f9c-4b4c-9709-840003c24904\" name=\"Changes\" comment=\"\">\r\n      <change beforePath=\"$PROJECT_DIR$/.gitignore\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/out/.gitignore\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/modules.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/modules.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/Main.kt\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/Main.kt\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"ProjectColorInfo\">{\r\n  &quot;associatedIndex&quot;: 0\r\n}</component>\r\n  <component name=\"ProjectId\" id=\"2fSTZFv4KnlgMzov6jGVkRoTAao\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\"><![CDATA[{\r\n  \"keyToString\": {\r\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\r\n    \"git-widget-placeholder\": \"master\",\r\n    \"kotlin-language-version-configured\": \"true\",\r\n    \"node.js.detected.package.eslint\": \"true\",\r\n    \"node.js.detected.package.tslint\": \"true\",\r\n    \"node.js.selected.package.eslint\": \"(autodetect)\",\r\n    \"node.js.selected.package.tslint\": \"(autodetect)\",\r\n    \"nodejs_package_manager_path\": \"npm\",\r\n    \"vue.rearranger.settings.migration\": \"true\"\r\n  }\r\n}]]></component>\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"MoveFile.RECENT_KEYS\">\r\n      <recent name=\"C:\\Users\\Григорий\\IdeaProjects\\Учим джаву\\kotlinsprint\\src\" />\r\n      <recent name=\"C:\\Users\\Григорий\\IdeaProjects\\Учим джаву\\kotlinsprint\\out\" />\r\n    </key>\r\n  </component>\r\n  <component name=\"SharedIndexes\">\r\n    <attachedChunks>\r\n      <set>\r\n        <option value=\"bundled-jdk-9f38398b9061-18abd8497189-intellij.indexing.shared.core-IU-241.14494.240\" />\r\n        <option value=\"bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-IU-241.14494.240\" />\r\n      </set>\r\n    </attachedChunks>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"c93b965b-3f9c-4b4c-9709-840003c24904\" name=\"Changes\" comment=\"\" />\r\n      <created>1713793534334</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1713793534334</updated>\r\n      <workItem from=\"1713793535368\" duration=\"87000\" />\r\n      <workItem from=\"1713793644049\" duration=\"371000\" />\r\n    </task>\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision b102e77cdc997dd613fbb39a1b8ff428f03f4c6e)
++++ b/.idea/workspace.xml	(date 1713893900095)
+@@ -4,20 +4,57 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="c93b965b-3f9c-4b4c-9709-840003c24904" name="Changes" comment="">
+-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/out/.gitignore" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
++    <list default="true" id="c93b965b-3f9c-4b4c-9709-840003c24904" name="Changes" comment="Ks--3-1">
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.kt" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/lessons_1/Lesson3-task1.kt" beforeDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+     <option name="LAST_RESOLUTION" value="IGNORE" />
++  </component>
++  <component name="FileTemplateManagerImpl">
++    <option name="RECENT_TEMPLATES">
++      <list>
++        <option value="Kotlin File" />
++      </list>
++    </option>
+   </component>
+   <component name="Git.Settings">
++    <option name="RECENT_BRANCH_BY_REPOSITORY">
++      <map>
++        <entry key="$PROJECT_DIR$" value="KS-2-3" />
++        <entry key="$PROJECT_DIR$" value="KS-2-1" />
++      </map>
++    </option>
+     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
++    <option name="SIGN_OFF_COMMIT" value="true" />
++  </component>
++  <component name="GitHubPullRequestSearchHistory">{
++  &quot;lastFilter&quot;: {
++    &quot;state&quot;: &quot;OPEN&quot;,
++    &quot;assignee&quot;: &quot;saamehada&quot;
++  }
++}</component>
++  <component name="GithubPullRequestsUISettings"><![CDATA[{
++  "selectedUrlAndAccountId": {
++    "url": "https://github.com/saamehada/KotlinSprint.git",
++    "accountId": "57b010d6-4874-42b0-af05-606a8f84df91"
++  },
++  "recentNewPullRequestHead": {
++    "server": {
++      "useHttp": false,
++      "host": "github.com",
++      "port": null,
++      "suffix": null
++    },
++    "owner": "saamehada",
++    "repository": "KotlinSprint"
++  },
++  "editorReviewEnabled": false
++}]]></component>
++  <component name="HighlightingSettingsPerFile">
++    <setting file="file://$PROJECT_DIR$/src/lessons_1/Lesson3-task1.kt" root0="FORCE_HIGHLIGHTING" />
+   </component>
+   <component name="ProjectColorInfo">{
+   &quot;associatedIndex&quot;: 0
+@@ -30,14 +67,27 @@
+   </component>
+   <component name="PropertiesComponent"><![CDATA[{
+   "keyToString": {
++    "Kotlin.Lesson1_task2Kt.executor": "Run",
++    "Kotlin.Lesson1_task3Kt.executor": "Run",
++    "Kotlin.Lesson1_task4Kt.executor": "Run",
++    "Kotlin.Lesson2_task1Kt.executor": "Run",
++    "Kotlin.Lesson2_task2Kt.executor": "Run",
++    "Kotlin.Lesson2_task3Kt.executor": "Run",
++    "Kotlin.Lesson2_task4Kt.executor": "Run",
++    "Kotlin.Lesson2_task5Kt.executor": "Run",
++    "Kotlin.Lesson3_task1Kt.executor": "Run",
++    "Kotlin.Lesson3_task5Kt.executor": "Run",
++    "Kotlin.Lesson_task5Kt.executor": "Run",
++    "Kotlin.MainKt.executor": "Run",
+     "RunOnceActivity.ShowReadmeOnStart": "true",
+-    "git-widget-placeholder": "master",
++    "git-widget-placeholder": "KS-2-1",
+     "kotlin-language-version-configured": "true",
+     "node.js.detected.package.eslint": "true",
+     "node.js.detected.package.tslint": "true",
+     "node.js.selected.package.eslint": "(autodetect)",
+     "node.js.selected.package.tslint": "(autodetect)",
+     "nodejs_package_manager_path": "npm",
++    "settings.editor.selected.configurable": "preferences.toDoOptions",
+     "vue.rearranger.settings.migration": "true"
+   }
+ }]]></component>
+@@ -46,6 +96,52 @@
+       <recent name="C:\Users\Григорий\IdeaProjects\Учим джаву\kotlinsprint\src" />
+       <recent name="C:\Users\Григорий\IdeaProjects\Учим джаву\kotlinsprint\out" />
+     </key>
++  </component>
++  <component name="RunManager" selected="Kotlin.Lesson2_task1Kt">
++    <configuration name="Lesson2_task1Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
++      <option name="MAIN_CLASS_NAME" value="lessons.Lesson2_task1Kt" />
++      <module name="KotlinSprint" />
++      <method v="2">
++        <option name="Make" enabled="true" />
++      </method>
++    </configuration>
++    <configuration name="Lesson2_task4Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
++      <option name="MAIN_CLASS_NAME" value="lessons_1.Lesson2_task4Kt" />
++      <module name="KotlinSprint" />
++      <method v="2">
++        <option name="Make" enabled="true" />
++      </method>
++    </configuration>
++    <configuration name="Lesson2_task5Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
++      <option name="MAIN_CLASS_NAME" value="lessons_1.Lesson2_task5Kt" />
++      <module name="KotlinSprint" />
++      <method v="2">
++        <option name="Make" enabled="true" />
++      </method>
++    </configuration>
++    <configuration name="Lesson3_task1Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
++      <option name="MAIN_CLASS_NAME" value="lessons_1.Lesson3_task1Kt" />
++      <module name="KotlinSprint" />
++      <method v="2">
++        <option name="Make" enabled="true" />
++      </method>
++    </configuration>
++    <configuration name="Lesson_task5Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
++      <option name="MAIN_CLASS_NAME" value="lessons_1.Lesson_task5Kt" />
++      <module name="KotlinSprint" />
++      <method v="2">
++        <option name="Make" enabled="true" />
++      </method>
++    </configuration>
++    <recent_temporary>
++      <list>
++        <item itemvalue="Kotlin.Lesson_task5Kt" />
++        <item itemvalue="Kotlin.Lesson3_task1Kt" />
++        <item itemvalue="Kotlin.Lesson2_task5Kt" />
++        <item itemvalue="Kotlin.Lesson2_task4Kt" />
++        <item itemvalue="Kotlin.Lesson2_task1Kt" />
++      </list>
++    </recent_temporary>
+   </component>
+   <component name="SharedIndexes">
+     <attachedChunks>
+@@ -64,11 +160,199 @@
+       <option name="presentableId" value="Default" />
+       <updated>1713793534334</updated>
+       <workItem from="1713793535368" duration="87000" />
+-      <workItem from="1713793644049" duration="371000" />
++      <workItem from="1713793644049" duration="17034000" />
++      <workItem from="1713815010690" duration="646000" />
++      <workItem from="1713849750097" duration="5484000" />
++      <workItem from="1713874267252" duration="15831000" />
++    </task>
++    <task id="LOCAL-00001" summary="Kotlin sprint">
++      <option name="closed" value="true" />
++      <created>1713794267171</created>
++      <option name="number" value="00001" />
++      <option name="presentableId" value="LOCAL-00001" />
++      <option name="project" value="LOCAL" />
++      <updated>1713794267171</updated>
++    </task>
++    <task id="LOCAL-00002" summary="Ks-task1-lesson1">
++      <option name="closed" value="true" />
++      <created>1713794954448</created>
++      <option name="number" value="00002" />
++      <option name="presentableId" value="LOCAL-00002" />
++      <option name="project" value="LOCAL" />
++      <updated>1713794954448</updated>
++    </task>
++    <task id="LOCAL-00003" summary="Ks-1-1">
++      <option name="closed" value="true" />
++      <created>1713795787869</created>
++      <option name="number" value="00003" />
++      <option name="presentableId" value="LOCAL-00003" />
++      <option name="project" value="LOCAL" />
++      <updated>1713795787869</updated>
++    </task>
++    <task id="LOCAL-00004" summary="Ks-1-2">
++      <option name="closed" value="true" />
++      <created>1713798401451</created>
++      <option name="number" value="00004" />
++      <option name="presentableId" value="LOCAL-00004" />
++      <option name="project" value="LOCAL" />
++      <updated>1713798401451</updated>
++    </task>
++    <task id="LOCAL-00005" summary="Ks-1-3">
++      <option name="closed" value="true" />
++      <created>1713800496723</created>
++      <option name="number" value="00005" />
++      <option name="presentableId" value="LOCAL-00005" />
++      <option name="project" value="LOCAL" />
++      <updated>1713800496723</updated>
++    </task>
++    <task id="LOCAL-00006" summary="Ks-1-4">
++      <option name="closed" value="true" />
++      <created>1713801244151</created>
++      <option name="number" value="00006" />
++      <option name="presentableId" value="LOCAL-00006" />
++      <option name="project" value="LOCAL" />
++      <updated>1713801244151</updated>
++    </task>
++    <task id="LOCAL-00007" summary="Ks-2-1">
++      <option name="closed" value="true" />
++      <created>1713807767066</created>
++      <option name="number" value="00007" />
++      <option name="presentableId" value="LOCAL-00007" />
++      <option name="project" value="LOCAL" />
++      <updated>1713807767066</updated>
++    </task>
++    <task id="LOCAL-00008" summary="Ks-2-2">
++      <option name="closed" value="true" />
++      <created>1713809894532</created>
++      <option name="number" value="00008" />
++      <option name="presentableId" value="LOCAL-00008" />
++      <option name="project" value="LOCAL" />
++      <updated>1713809894532</updated>
++    </task>
++    <task id="LOCAL-00009" summary="Ks-2-3">
++      <option name="closed" value="true" />
++      <created>1713853642769</created>
++      <option name="number" value="00009" />
++      <option name="presentableId" value="LOCAL-00009" />
++      <option name="project" value="LOCAL" />
++      <updated>1713853642769</updated>
++    </task>
++    <task id="LOCAL-00010" summary="Ks-2-4">
++      <option name="closed" value="true" />
++      <created>1713875651066</created>
++      <option name="number" value="00010" />
++      <option name="presentableId" value="LOCAL-00010" />
++      <option name="project" value="LOCAL" />
++      <updated>1713875651066</updated>
++    </task>
++    <task id="LOCAL-00011" summary="Ks-2-5">
++      <option name="closed" value="true" />
++      <created>1713878514590</created>
++      <option name="number" value="00011" />
++      <option name="presentableId" value="LOCAL-00011" />
++      <option name="project" value="LOCAL" />
++      <updated>1713878514590</updated>
++    </task>
++    <task id="LOCAL-00012" summary="Ks-1-3">
++      <option name="closed" value="true" />
++      <created>1713884230184</created>
++      <option name="number" value="00012" />
++      <option name="presentableId" value="LOCAL-00012" />
++      <option name="project" value="LOCAL" />
++      <updated>1713884230184</updated>
++    </task>
++    <task id="LOCAL-00013" summary="Ks-1-3">
++      <option name="closed" value="true" />
++      <created>1713884237824</created>
++      <option name="number" value="00013" />
++      <option name="presentableId" value="LOCAL-00013" />
++      <option name="project" value="LOCAL" />
++      <updated>1713884237824</updated>
++    </task>
++    <task id="LOCAL-00014" summary="Ks-3-1">
++      <option name="closed" value="true" />
++      <created>1713889282011</created>
++      <option name="number" value="00014" />
++      <option name="presentableId" value="LOCAL-00014" />
++      <option name="project" value="LOCAL" />
++      <updated>1713889282011</updated>
++    </task>
++    <task id="LOCAL-00015" summary="Ks-3-1">
++      <option name="closed" value="true" />
++      <created>1713889607162</created>
++      <option name="number" value="00015" />
++      <option name="presentableId" value="LOCAL-00015" />
++      <option name="project" value="LOCAL" />
++      <updated>1713889607162</updated>
++    </task>
++    <task id="LOCAL-00016" summary="Ks--3-1">
++      <option name="closed" value="true" />
++      <created>1713891013293</created>
++      <option name="number" value="00016" />
++      <option name="presentableId" value="LOCAL-00016" />
++      <option name="project" value="LOCAL" />
++      <updated>1713891013293</updated>
++    </task>
++    <task id="LOCAL-00017" summary="Ks--3-1">
++      <option name="closed" value="true" />
++      <created>1713892287309</created>
++      <option name="number" value="00017" />
++      <option name="presentableId" value="LOCAL-00017" />
++      <option name="project" value="LOCAL" />
++      <updated>1713892287309</updated>
+     </task>
++    <task id="LOCAL-00018" summary="Ks-2-1">
++      <option name="closed" value="true" />
++      <created>1713893570600</created>
++      <option name="number" value="00018" />
++      <option name="presentableId" value="LOCAL-00018" />
++      <option name="project" value="LOCAL" />
++      <updated>1713893570600</updated>
++    </task>
++    <option name="localTasksCounter" value="19" />
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
+     <option name="version" value="3" />
+   </component>
++  <component name="Vcs.Log.Tabs.Properties">
++    <option name="TAB_STATES">
++      <map>
++        <entry key="MAIN">
++          <value>
++            <State>
++              <option name="FILTERS">
++                <map>
++                  <entry key="branch">
++                    <value>
++                      <list>
++                        <option value="KS-2-1" />
++                      </list>
++                    </value>
++                  </entry>
++                </map>
++              </option>
++            </State>
++          </value>
++        </entry>
++      </map>
++    </option>
++  </component>
++  <component name="VcsManagerConfiguration">
++    <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="false" />
++    <MESSAGE value="Kotlin sprint" />
++    <MESSAGE value="Ks-task1-lesson1" />
++    <MESSAGE value="Ks-1-1" />
++    <MESSAGE value="Ks-1-2" />
++    <MESSAGE value="Ks-1-4" />
++    <MESSAGE value="Ks-2-2" />
++    <MESSAGE value="Ks-2-3" />
++    <MESSAGE value="Ks-2-4" />
++    <MESSAGE value="Ks-2-5" />
++    <MESSAGE value="Ks-1-3" />
++    <MESSAGE value="Ks-3-1" />
++    <MESSAGE value="Ks--3-1" />
++    <MESSAGE value="Ks-2-1" />
++    <option name="LAST_COMMIT_MESSAGE" value="Ks-2-1" />
++  </component>
+ </project>
+\ No newline at end of file
