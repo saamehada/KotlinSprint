@@ -1,11 +1,14 @@
 package lessons_1
 
-fun main(){
+fun main() {
     val crystalOre = 7
     val ironOre = 11
     val buff = 20
-    val buffCrystalOre = (buff * crystalOre) / 100
-    val buffIronOre = (buff * ironOre) / 100
+    val calculatingThePercentage = 100
+
+
+    val buffCrystalOre = (buff * crystalOre) / calculatingThePercentage
+    val buffIronOre = (buff * ironOre) / calculatingThePercentage
 
     println(buffCrystalOre)
     println(buffIronOre)
