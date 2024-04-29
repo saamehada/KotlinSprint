@@ -7,7 +7,7 @@ fun main() {
         |Введите ответ для решения данной задачи '2 + 2': 
         """.trimMargin()
     print(proodBot)
-    val wordToEnter = readLine()!!.toInt()
+    val wordToEnter = readln()!!.toInt()
 
     if ( mainQuestion == wordToEnter) {
         println("Добро пожаловать!!!")
