@@ -7,9 +7,9 @@ fun main() {
     val vallueSecond = Random.nextInt(0, 42)
     val vallueThird = Random.nextInt(0, 42)
 
-    val mainFirst = readln()
-    val mainSecond = readln()
-    val mainThird = readln()
+    val mainFirst = readln().toInt()
+    val mainSecond = readln().toInt()
+    val mainThird = readln().toInt()
 
     val list1 = listOf(vallueFirst, vallueSecond, vallueThird)
     val list2 = listOf(mainFirst, mainSecond, mainThird)
@@ -18,16 +18,24 @@ fun main() {
     val intersectioncount = intersection.count()
 
 
-    if (intersectioncount == 0) {
-        println("Вы угадали ноль чисел, не стоит расстраиваться!")
-    } else if (intersectioncount == 1) {
-        println("Вы получаете утешительный приз!")
-    } else if (intersectioncount == 2) {
-        println("Вы получаете крупный приз!")
-    } else {
-        println("Вы угадали все числа и выиграли джекпот!!!")
+    val answer = when (intersectioncount) {
+        0 -> {
+            "Вы угадали ноль чисел, не стоит расстраиваться!"
+        }
+
+        1 -> {
+            "Вы получаете утешительный приз!"
+        }
+
+        2 -> {
+            "Вы получаете крупный приз!"
+        }
+
+        else -> {
+            "Вы угадали все числа и выиграли джекпот!!!"
+        }
     }
 
-
+    println(answer)
     println(list1)
 }
